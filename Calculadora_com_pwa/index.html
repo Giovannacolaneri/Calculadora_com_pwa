@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="minhaCalculadora">
+        <div class="cabecalho">
+            <img src="imagens/icon-192x192.png" alt="Logo" class="logo">
+            <h1 class="titulo">Minha Calculadora</h1>
+        </div>
+
+        <form action="">
+            <p>Primeiro Número</p> 
+            <input type="text" id="n1" size="35" maxlength="35"> <br> 
+            <p>Segundo Número</p>
+            <input type="text" id="n2" size="35" maxlength="35"> 
+
+            <div class="operacoes">
+                <br>
+                <input type="button" value="Somar" id="soma">
+                <input type="button" value="Subtrair" id="subtrair">
+                <input type="button" value="Dividir" id="dividir">
+                <input type="button" value="Multiplicar" id="multiplicar">
+            </div>
+
+            <p id="resultado"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/Calculadora_com_pwa/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.minhaCalculadora {
+    background-color: #ffe4ec;
+    width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #ff96a8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d6336c;
+    margin: 0;
+}
+
+/* Estilo dos inputs */
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ff96a8;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Estilo dos botões */
+.operacoes input[type="button"] {
+    background-color: #ff96a8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.operacoes input[type="button"]:hover {
+    background-color: #e85c84;
+}
+
+/* Resultado */
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d6336c;
+    margin-top: 20px;
+}
